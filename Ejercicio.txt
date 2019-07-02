@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Ejercicio{
+  public static void main(String args[]){
+
+  float num_uno, den_uno,num_dos, den_dos;
+  Scanner lee = new Scanner(System.in);
+
+
+  System.out.println("Ingrese el numerador 1");
+  num_uno = lee.nextFloat();
+
+
+  System.out.println("Ingrese el denominador 1");
+  den_uno = lee.nextFloat();
+
+
+  System.out.println("Ingrese el numerador 2");
+  num_dos = lee.nextFloat();
+
+
+  System.out.println("Ingrese el numerador 2");
+  den_dos= lee.nextFloat();
+
+ }
+}
